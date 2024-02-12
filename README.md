@@ -2,6 +2,28 @@
 
 AuthenticationApp is an Express.js application designed to provide user registration, authentication, secure routes, user roles and authorization, password reset functionality, security measures, and logging capabilities. Below are the features and implementation details of the application:
 
+## Technologies/Libraries Used
+
+AuthenticationApp utilizes the following technologies and libraries:
+
+1. **Express Js**: Express.js is a fast, unopinionated, minimalist web framework for Node.js, providing a robust set of features for building web applications and APIs.
+
+2. **Mongo Db**: MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents. It offers high performance, scalability, and flexibility for handling various types of data.
+
+3. **Mongoose**: Mongoose is an elegant MongoDB object modeling tool for Node.js, providing a straightforward schema-based solution for modeling application data.
+
+4. **Sanitize**: Sanitize libraries are used to sanitize and validate user input, helping to prevent XSS (Cross-Site Scripting) attacks and ensure data integrity.
+
+5. **Helmet**: Helmet is a collection of middleware functions for securing Express.js applications by setting various HTTP headers to mitigate common web vulnerabilities.
+
+6. **Winston**: Winston is a versatile logging library for Node.js applications, offering flexible logging capabilities and support for multiple transports such as console, file, and database.
+
+7. **JWT (JSON Web Tokens)**: JWT is a compact, URL-safe means of representing claims to be transferred between two parties. It is used for token-based authentication and authorization in web applications.
+
+8. **Nodemailer**: Nodemailer is a module for Node.js applications that allows for easy email sending. It is used to facilitate the email-based processes in AuthenticationApp, such as password reset functionality.
+
+These technologies and libraries are carefully chosen to provide a secure, efficient, and scalable authentication solution for AuthenticationApp, ensuring the confidentiality, integrity, and availability of user data and system resources.
+
 ## Features
 
 1. **Create an Express.js Application**
