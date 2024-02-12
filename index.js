@@ -8,23 +8,20 @@ require("dotenv").config();
 const cookieParser = require("cookie-parser");
 require("./config/database").connect();
 const helmet = require("helmet");
-// const Logger = require("./middleware/logger");
+const Logger = require("./middleware/logger");
 
 const PORT = process.env.PORT || 8000;
+app.use(require('sanitize').middleware);
 app.use(cookieParser());
+app.use(helmet());
+app.use(Logger);
 app.use(authRouter);
 app.use(userRouter);
-app.use(helmet());
-app.use((req,res,next)=>{
-  console.log(req.originalUrl);
-  next()
-})
-// Logger()
 
 app.get("/", (req, res) => {
   res.send("ok");
 });
 app.listen(PORT, () => {
-  // logger.log("info","yes")
+
   console.log(`Server running at http://localhost:${PORT}`);
 });

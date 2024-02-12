@@ -1,34 +1,126 @@
 {
-  service: 'user-service',
-  level: 'info',
-  message: '/login',
-  timestamp: '2024-02-12T20:25:42.561Z'
-}
-{
   pathName: '/login',
-  userAgent: undefined,
+  userAgent: 'PostmanRuntime/7.36.3',
   level: 'info',
   service: 'user-service',
-  timestamp: '2024-02-12T20:27:22.303Z'
+  timestamp: '2024-02-12T21:52:07.949Z'
 }
 {
   pathName: '/login',
   userAgent: 'PostmanRuntime/7.36.3',
   level: 'info',
   service: 'user-service',
-  timestamp: '2024-02-12T20:28:56.911Z'
+  timestamp: '2024-02-12T21:52:07.953Z'
+}
+{
+  pathName: '/users',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T21:54:00.616Z'
 }
 {
   pathName: '/login',
   userAgent: 'PostmanRuntime/7.36.3',
   level: 'info',
   service: 'user-service',
-  timestamp: '2024-02-12T21:03:25.518Z'
+  timestamp: '2024-02-12T21:57:40.721Z'
 }
 {
   pathName: '/login',
   userAgent: 'PostmanRuntime/7.36.3',
   level: 'info',
   service: 'user-service',
-  timestamp: '2024-02-12T21:03:41.939Z'
+  timestamp: '2024-02-12T21:57:40.722Z'
+}
+{
+  pathName: '/register',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:00:21.072Z'
+}
+{
+  pathName: '/login',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:01:23.037Z'
+}
+{
+  pathName: '/login',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:01:23.037Z'
+}
+{
+  pathName: '/users',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:02:44.926Z'
+}
+{
+  pathName: '/forgotpassword',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:03:56.997Z'
+}
+{
+  pathName: '/forgotpassword',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:06:16.297Z'
+}
+{
+  pathName: '/verifyToken',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:09:45.462Z'
+}
+{
+  pathName: '/verifyToken',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:10:19.578Z'
+}
+{
+  pathName: '/details',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:11:33.586Z'
+}
+{
+  pathName: '/userdetail',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:12:40.222Z'
+}
+{
+  pathName: '/register',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:20:48.816Z'
+}
+{
+  pathName: '/register',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:21:09.577Z'
+}
+{
+  pathName: '/register',
+  userAgent: 'PostmanRuntime/7.36.3',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2024-02-12T22:21:58.357Z'
 }

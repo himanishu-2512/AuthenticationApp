@@ -13,7 +13,7 @@ const auth = async (req, res, next) => {
       process.env.ACCESS_TOKEN_SECRET_KEY
     );
     req.user = decoded.user;
-    console.log(decoded,1);
+    console.log(decoded, 1);
     next();
   } catch (error) {
     if (!refreshToken) {
@@ -30,8 +30,7 @@ const auth = async (req, res, next) => {
         { expiresIn: "5m" }
       );
       req.user = decoded.user;
-      console.log(decoded)
-
+      console.log(decoded);
 
       res
         .cookie("refreshToken", refreshToken, {

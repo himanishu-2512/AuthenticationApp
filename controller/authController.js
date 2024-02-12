@@ -57,17 +57,16 @@ module.exports = {
       const { email, password } = req.body;
      
       const user = await User.findOne({ email });
-      if (!user) res.status(400).json({ message: "User doesn't exist" });
+      if (!user)return res.status(400).json({ message: "User doesn't exist" });
 
       const matchPassword = bcrypt.compare(password, user.password);
 
       if (!matchPassword)
-        res.status(401).json({ message: "Password is wrong" });
+       return res.status(401).json({ message: "Password is wrong" });
       const { refreshToken, accessToken } = await generateTokens(user);
       return res
         .cookie("refreshToken", refreshToken, { httpOnly: true })
-        .header("Authorization", `Bearer ${accessToken}`)
-        .send(user);
+        .json({message:"User got logged In successfully",user,accessToken});
     } catch (error) {
       return res.status(500).json({ message: "Internal server error", error });
     }
